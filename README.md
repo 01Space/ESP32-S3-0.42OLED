@@ -17,31 +17,12 @@ Via Arduino IDE Tools/Board / Board Manager search for ESP32 and choose Espressi
 # The following Arduino libraries need to be installed（via option tools / Manage Libraries in Arduino IDE）
 u8g2
 
-OneBitDisplay
-
-BitBang_I2C
-
-SparkFun_SCD4x_Arduino_Library 
-
-AnimatedGIF
-
-thinger.io
-
-Adafruit NeoPixel 
-
-
-Setup connection to connect to Board ESP32C3 Dev and com port which is assocuiated to USB Serial Device, not jtag (see Device Manager on Win10). Other settings see settings.png.
+Setup connection to connect to Board ESP32S3 Dev and com port which is assocuiated to USB Serial Device.
 
 # Upload sketch from Arduino IDE:
 
 Hold down B button on board, press R button and release again but keep on pressing B, trigger Arduino IDE to upload sketch, keep B pressed until Arduino IDE says that it's connected. Then you can release B button.
 
-Serial works with "CDC enable on boot" set to true.
-
-# programming in micropython
-
-This link has detailed steps
-https://github.com/01Space/ESP32-C3-0.42LCD/tree/main/micropython/image
 
 # Open Source / Contributors
 
